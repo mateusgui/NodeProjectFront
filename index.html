@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD - Users</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="forms">
+        <section class="form-fill">
+            <form action="">
+                <h2>Formulário de Cadastro</h2>
+                <label for="name">Nome:</label>
+                <input id="name" name="name" type="text" required placeholder="Digite seu Nome">
+                <label for="email">Email:</label>
+                <input id="email" name="email" type="text" required placeholder="Digite seu Email">
+                <label for="age">Idade:</label>
+                <input id="age" name="age" type="number" required placeholder="Digite sua Idade">
+                <button>Enviar</button>
+            </form>
+        </section>
+
+        <section class="form-response">
+            <p>Status:</p>
+            <p>Nome:</p>
+            <p>Email:</p>
+            <p>Idade:</p>
+            <p>Erro:</p>
+        </section>
+
+        <section class="form-info">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Idade</th>
+                        <th>ID</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody class="form-table-body">
+                    <tr> <!--INÍCIO TABLE BODY-->
+                        <td>João</td>
+                        <td>joao@email.com</td>
+                        <td>30</td>
+                        <td>12345</td>
+                        <th><button>Deletar</button></th>
+                    </tr> <!--FIM TABLE BODY-->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

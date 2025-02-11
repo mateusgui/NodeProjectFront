@@ -1,0 +1,148 @@
+/* Reset de Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif; /* Garantindo que a fonte seja uniforme */
+}
+
+/* Estilos Globais */
+body {
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Adicionando margin-top diretamente no main para garantir o espaçamento */
+main {
+    margin-top: 30px;
+}
+
+/* Estilos do Formulário */
+.forms {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form-fill {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 200px;
+}
+
+.form-fill h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form-fill label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-fill input {
+    width: 100%;
+    padding: 12px; /* Aumentando o padding dos inputs */
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+}
+
+.form-fill input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.form-fill button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.form-fill button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos da Resposta do Formulário */
+.form-response {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-response p {
+    margin: 8px 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+.form-response p:last-child {
+    color: red;
+    font-weight: bold;
+}
+
+/* Estilos da Tabela */
+.form-info {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d32f2f;
+}
