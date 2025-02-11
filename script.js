@@ -23,7 +23,9 @@ document.getElementById('sendButton').addEventListener('click', () => {
 const getUsers = async () => {
     try {
         // Fazendo a requisição GET para o endpoint da API
-        const response = await fetch('http://localhost:3000/usuarios')
+        const response = await fetch('http://localhost:3000/usuarios', {
+            method: 'GET',  // Especifica que o método será GET
+        })
 
         // Verificando se a requisição foi bem-sucedida
         if (!response.ok) {
